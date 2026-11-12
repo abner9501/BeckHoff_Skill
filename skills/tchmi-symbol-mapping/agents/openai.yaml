@@ -1,0 +1,4 @@
+interface:
+  display_name: "TwinCAT HMI 符号映射"
+  short_description: "完成 TwinCAT HMI 的 PLC 变量 Map Symbol 并核对运行读取"
+  default_prompt: "Use $tchmi-symbol-mapping to map this PLC variable in the active TwinCAT HMI project and verify the loaded mapping."

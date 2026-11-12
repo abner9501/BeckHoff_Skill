@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex 技能共享"
+  short_description: "审计、打包、接收和验证可移植的本地 Codex 技能"
+  default_prompt: "Use $skill-sharing to review this Codex skill before sharing or importing it."

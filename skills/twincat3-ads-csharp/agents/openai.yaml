@@ -1,0 +1,4 @@
+interface:
+  display_name: "TwinCAT 3 ADS C#"
+  short_description: "使用 C# ADS 安全读写、订阅和诊断 TwinCAT PLC 变量"
+  default_prompt: "Use $twincat3-ads-csharp to diagnose or implement this TwinCAT ADS C# workflow."

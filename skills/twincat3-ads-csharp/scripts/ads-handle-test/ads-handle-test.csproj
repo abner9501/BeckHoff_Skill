@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>ads-handle-test</AssemblyName>
+    <RootNamespace>AdsHandleTest</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Preserve the ADS package version used for the recorded measurements. -->
+    <PackageReference Include="Beckhoff.TwinCAT.Ads" Version="7.0.172" />
+  </ItemGroup>
+
+</Project>

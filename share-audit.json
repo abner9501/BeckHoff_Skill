@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-12",
+  "skills": {
+    "beckhoff-official-knowledge": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "fb-iomap": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "iodisplay": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "local-skill-governance": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "match-math-wrong-questions": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "skill-sharing": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "tchmi-bilingual-localization": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "tchmi-inputbox-grid": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "tchmi-parameter-settings": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "tchmi-symbol-mapping": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "twincat3-ads-csharp": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "twincat3-ads-nodejs": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "twincat3-build-verify": {
+      "valid": true,
+      "message": "Skill is valid!"
+    }
+  },
+  "excluded": [
+    "beckhoff-official-knowledge/references/index.jsonl",
+    "beckhoff-official-knowledge/scripts/__pycache__/build_index.cpython-312.pyc"
+  ],
+  "sanitized_files": [
+    "beckhoff-official-knowledge/SKILL.md",
+    "beckhoff-official-knowledge/scripts/build_index.py",
+    "beckhoff-official-knowledge/scripts/search.py",
+    "fb-iomap/SKILL.md",
+    "match-math-wrong-questions/SKILL.md",
+    "skill-sharing/scripts/check-skill.config.example.json",
+    "tchmi-symbol-mapping/SKILL.md",
+    "twincat3-ads-csharp/SKILL.md",
+    "twincat3-ads-nodejs/references/usage.md",
+    "twincat3-build-verify/SKILL.md",
+    "twincat3-build-verify/references/automation-api.md",
+    "twincat3-build-verify/references/errorlist-early-binding.md"
+  ],
+  "checks": [
+    "official quick_validate.py for all 13 skills",
+    "Python AST parse",
+    "known private path and GitHub credential patterns",
+    "PowerShell parser: 11 scripts passed",
+    "Node.js --check: check-skill.mjs passed",
+    "Sharing audit --strict: all 13 passed (heuristic warnings retained)",
+    "C# project XML: 3 projects parsed"
+  ],
+  "runtime_validation": false,
+  "limitations": [
+    "No PLC, ADS, HMI runtime or C# build executed.",
+    "Historical performance claims retain their original environment and date.",
+    "Soft audit warnings include numeric claims and standard TwinCAT installation paths."
+  ]
+}

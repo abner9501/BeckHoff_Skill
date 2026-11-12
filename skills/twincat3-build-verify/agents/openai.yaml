@@ -1,0 +1,4 @@
+interface:
+  display_name: "TwinCAT 3 工程构建验证"
+  short_description: "创建、编译、验证和谨慎激活 TwinCAT 3 PLC 工程"
+  default_prompt: "Use $twincat3-build-verify to build and verify this TwinCAT 3 PLC project."

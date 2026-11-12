@@ -1,0 +1,4 @@
+interface:
+  display_name: "FB IOMap"
+  short_description: "Generate TwinCAT FB_IOMap from EtherCAT order"
+  default_prompt: "Use this skill to create or update FB_IOMap.TcPOU from a reference IOMap and EtherCAT terminal order."

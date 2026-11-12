@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>adsstruct</AssemblyName>
+    <RootNamespace>AdsStruct</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <!-- 离线/代理不通时跳过 NuGet 漏洞库查询，省几分钟 -->
+    <NuGetAudit>false</NuGetAudit>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Preserve the ADS package version used for the recorded measurements. -->
+    <PackageReference Include="Beckhoff.TwinCAT.Ads" Version="7.0.172" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- 结构体探针逻辑与 ads-speedtest 共用一份源码 -->
+    <Compile Include="..\ads-shared\StructProbe.cs" Link="StructProbe.cs" />
+  </ItemGroup>
+
+</Project>

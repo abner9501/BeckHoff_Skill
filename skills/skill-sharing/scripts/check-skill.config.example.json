@@ -1,0 +1,7 @@
+{
+  "_说明": "复制成本目录下的 check-skill.config.json 再把下面改成你们公司的。Windows 路径要双反斜杠。",
+  "_privatePaths": "公司私有的目录前缀 / 项目名 / 客户名，命中只提示不拦",
+  "privatePaths": [],
+  "_docsRoots": "允许出现的资料根目录（命中不算私有）。比如公司统一的倍福资料库",
+  "docsRoots": []
+}

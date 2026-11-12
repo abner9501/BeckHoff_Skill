@@ -1,0 +1,4 @@
+interface:
+  display_name: "本地技能治理"
+  short_description: "审计、拆分、迁移和共享本地 Codex 技能及旧 Claude 技能"
+  default_prompt: "Use $local-skill-governance to audit and migrate these local skills safely."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "高中数学错题找相似题"
+  short_description: "归类高中数学错题并在指定讲义 PDF 中匹配相似题。"
+  default_prompt: "Use $match-math-wrong-questions to summarize wrong-question types and find similar problems in the fixed Zhao Lixian PDF."

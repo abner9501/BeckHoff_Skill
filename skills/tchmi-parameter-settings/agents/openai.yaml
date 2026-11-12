@@ -1,0 +1,4 @@
+interface:
+  display_name: "TwinCAT HMI 参数设置"
+  short_description: "统一 TwinCAT HMI 参数设置栏与单页模式初始化及页面切换问题"
+  default_prompt: "Use $tchmi-parameter-settings to centralize parameter settings across TwinCAT HMI parameter pages."
